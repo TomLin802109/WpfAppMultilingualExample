@@ -1,0 +1,15 @@
+﻿<Application x:Class="MultilingualExample.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MultilingualExample"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Culture/Culture.en-US.xaml" x:Name="languageSource"/>
+            </ResourceDictionary.MergedDictionaries>
+            <ObjectDataProvider x:Key="Resource" ObjectType="{x:Type local:CulturesHelper}" MethodName="GetResourceInstance"/>
+            <ObjectDataProvider x:Key="CultureResourceDS" ObjectType="{x:Type local:CulturesHelper}"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

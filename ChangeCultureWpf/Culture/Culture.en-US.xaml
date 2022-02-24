@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="Title">Language Switch of WPF</sys:String>
+    <sys:String x:Key="LanguageSelectText">Available language</sys:String>
+    <sys:String x:Key="English">English</sys:String>
+    <sys:String x:Key="Chinese">Chinese</sys:String>
+    <sys:String x:Key="Message">Current culture of system is English</sys:String>
+    <sys:String x:Key="UserControl1.Message">Current culture of user control1 which is in another xaml file is English</sys:String>
+    <sys:String x:Key="UserControl1.Header">User control in another xaml file</sys:String>
+    <sys:String x:Key="LibCtrl.Message">Current culture of user control which is in another dll file is English</sys:String>
+    <sys:String x:Key="LibCtrl.Header">User control in another dll file</sys:String>
+</ResourceDictionary>
